@@ -5,9 +5,11 @@
 // @description  Try to block autoplay for audio/video on pages
 // @author       You
 // @match        https://x.com/*
+// @match        https://www.bilibili.com/movie/*
+// @match        https://www.bilibili.com/documentary/*
+// @match        https://www.bilibili.com/tv/*
+// @match        https://www.bilibili.com/variety/*
 // @grant        none
-// ==/UserScript==
-/* 然后粘上上面的主脚本体 */
 
 // ====== 禁止视频自动播放脚本 ======
 (function () {
